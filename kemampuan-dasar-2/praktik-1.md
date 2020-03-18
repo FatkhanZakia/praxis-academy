@@ -26,10 +26,23 @@ f). Kemudian tinjau perubahan yang tidak dikomit. Lalu lakukan itu.
 ![praktik 7](https://github.com/FatkhanZakia/rhymes/blob/master/praktik7.png)
 
 
+# Masukkan beberapa file yang diperlukan 
+
+g). Lalu menambahkan file untuk git
+
+satu-persatu
+![praktik 8](https://github.com/FatkhanZakia/rhymes/blob/master/praktik8.png)
+
+kemudian tambahkan seluruh file
+![praktik 9](https://github.com/FatkhanZakia/rhymes/blob/master/praktik9.png)
+
+h). Setelah itu jika ingin melihat history commit sebagai berikut.
+![praktik 10](https://github.com/FatkhanZakia/rhymes/blob/master/praktik10.png)
 
 
+![praktik 11](https://github.com/FatkhanZakia/rhymes/blob/master/praktik11.png)
 
-# I usually create an empty README.txt file for the first commit in my project
+
 # history. 
 touch README.txt 
 git add README.txt 
