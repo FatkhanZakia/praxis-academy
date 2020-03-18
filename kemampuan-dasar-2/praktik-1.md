@@ -9,8 +9,12 @@ a). untuk membuat folder baru.
 
 ![praktik 1](https://github.com/FatkhanZakia/rhymes/blob/master/praktik1.png)
 
-b). Masuk kedalam repository yang telah dibuat
+b). Untuk masuk kedalam repository yang telah dibuat
 ![praktik 2](https://github.com/FatkhanZakia/rhymes/blob/master/praktik2.png)
+
+c). Untuk membuat direktori dan mengosongkan repo Git, lakukanlah langkah berikut ini:
+![praktik 3](https://github.com/FatkhanZakia/rhymes/blob/master/praktik3.png)
+
 
 
 
