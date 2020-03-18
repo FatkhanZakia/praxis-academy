@@ -5,9 +5,15 @@ cd rhymes
 # Create a folder for your project.
 mkdir rhymes
 
-untuk membuat folder baru.
+a). untuk membuat folder baru.
 
 ![praktik 1](https://github.com/FatkhanZakia/rhymes/blob/master/praktik1.png)
+
+b). Masuk kedalam repository yang telah dibuat
+![praktik 2](https://github.com/FatkhanZakia/rhymes/blob/master/praktik2.png)
+
+
+
 
 # I usually create an empty README.txt file for the first commit in my project
 # history. 
