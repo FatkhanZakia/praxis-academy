@@ -22,7 +22,7 @@ e). Kemudian tambahkan beberapa penjelasan tentang proyek ke file README.
 
 f). Kemudian tinjau perubahan yang tidak dikomit. Lalu lakukan itu.
 ![praktik 6](https://github.com/FatkhanZakia/rhymes/blob/master/praktik6.png)
-(https://github.com/FatkhanZakia/rhymes/blob/master/praktik7.png)
+![praktik 7](https://github.com/FatkhanZakia/rhymes/blob/master/praktik7.png)
 
 
 
