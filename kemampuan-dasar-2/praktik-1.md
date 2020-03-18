@@ -42,6 +42,14 @@ h). Setelah itu jika ingin melihat history commit sebagai berikut.
 
 ![praktik 11](https://github.com/FatkhanZakia/rhymes/blob/master/praktik11.png)
 
+# Kemudian membuat awal repo bernama rhymes di Github
+![praktik 13](https://github.com/FatkhanZakia/rhymes/blob/master/praktik13.png)
+
+i). Kemudian push semua kedalam repo di Github
+![praktik 14](https://github.com/FatkhanZakia/rhymes/blob/master/praktik14.png)
+
+![praktik 12](https://github.com/FatkhanZakia/rhymes/blob/master/praktik12.png)
+
 
 # history. 
 touch README.txt 
