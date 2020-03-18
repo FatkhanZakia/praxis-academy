@@ -17,6 +17,10 @@ c). Untuk membuat direktori dan mengosongkan repo Git, lakukanlah langkah beriku
 d). Untuk membuat file baru bernama README.md lakukanlah hal berikut ini:
 ![praktik 4](https://github.com/FatkhanZakia/rhymes/blob/master/praktik4.png)
 
+e). Kemudian tambahkan beberapa penjelasan tentang proyek ke file README.
+![praktik 5](https://github.com/FatkhanZakia/rhymes/blob/master/praktik5.png)
+
+
 
 
 
