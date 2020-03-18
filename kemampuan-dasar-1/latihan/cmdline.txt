@@ -1,8 +1,8 @@
 instruction
 
 a). append [[<Drive>:]<Path>[;...]] [/x[:on|:off]] [/path:[:on|:off] [/e] 
-append    ;  To clear the appended directory list
-append /e ;To store a copy of the appended directory to an environment variable named APPEND
+append    ; To clear the appended directory list
+append /e ; To store a copy of the appended directory to an environment variable named APPEND
 
 
 b). arp [/a [<Inetaddr>] [/n <ifaceaddr>]] [/g [<Inetaddr>] [-n <ifaceaddr>]] [/d <Inetaddr> [<ifaceaddr>]] [/s <Inetaddr> <Etheraddr> [<ifaceaddr>]]
