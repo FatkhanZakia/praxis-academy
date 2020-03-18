@@ -50,17 +50,3 @@ i). Kemudian push semua kedalam repo di Github
 
 ![praktik 12](https://github.com/FatkhanZakia/rhymes/blob/master/praktik12.png)
 
-
-# history. 
-touch README.txt 
-git add README.txt 
-git commit -m 'First commit.' 
-
-# Add some explanation about the project to the README file.
-echo 'This repo is a collection of my favorite nursery rhymes.' >> README.txt
-
-# Review uncommitted changes. Then commit them.
-git status
-git diff
-git add README.txt
-git commit -m 'Added project overview to README.txt'
