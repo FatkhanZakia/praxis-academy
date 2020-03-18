@@ -1,2 +1,8 @@
-append [[<Drive>:]<Path>[;...]] [/x[:on|:off]] [/path:[:on|:off] [/e] 
-append ;  
+instruction
+
+a). append [[<Drive>:]<Path>[;...]] [/x[:on|:off]] [/path:[:on|:off] [/e] 
+append ;  To clear the appended directory list
+append /e To store a copy of the appended directory to an environment variable named APPEND
+
+
+
