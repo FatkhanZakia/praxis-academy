@@ -6,7 +6,6 @@ cd rhymes
 mkdir rhymes
 
 a). untuk membuat folder baru.
-
 ![praktik 1](https://github.com/FatkhanZakia/rhymes/blob/master/praktik1.png)
 
 b). Untuk masuk kedalam repository yang telah dibuat
@@ -14,6 +13,10 @@ b). Untuk masuk kedalam repository yang telah dibuat
 
 c). Untuk membuat direktori dan mengosongkan repo Git, lakukanlah langkah berikut ini:
 ![praktik 3](https://github.com/FatkhanZakia/rhymes/blob/master/praktik3.png)
+
+d). Untuk membuat file baru bernama README.md lakukanlah hal berikut ini:
+![praktik 4](https://github.com/FatkhanZakia/rhymes/blob/master/praktik4.png)
+
 
 
 
