@@ -1,11 +1,29 @@
 instruction
 
+Syntax
 a). append [[<Drive>:]<Path>[;...]] [/x[:on|:off]] [/path:[:on|:off] [/e] 
 append    ; To clear the appended directory list
 append /e ; To store a copy of the appended directory to an environment variable named APPEND
 
-
+Syntax
 b). arp [/a [<Inetaddr>] [/n <ifaceaddr>]] [/g [<Inetaddr>] [-n <ifaceaddr>]] [/d <Inetaddr> [<ifaceaddr>]] [/s <Inetaddr> <Etheraddr> [<ifaceaddr>]]
 arp /a ; To display the arp cache tables for all interfaces
 arp /a /n 10.0.0.99 ; To display the arp cache table for the interface that is assigned the IP address 10.0.0.99
 arp /s 10.0.0.80 00-AA-00-4F-2A-9C ; To add a static arp cache entry that resolves the IP address 10.0.0.80 to the physical address 00-AA-00-4F-2A-9C
+
+Syntax
+c). assoc [<.ext>[=[<FileType>]]]
+assoc .txt ; To view the current file type association for the file name extension .txt
+assoc .bak= ; To remove the file type association for the file name extension .bak
+assoc | more ; To view the output of assoc one screen at a time 
+assoc>assoc.txt ; To send the output of assoc to the file assoc.txt 
+
+Syntax
+d). at [\\computername] [[id] [/delete] | /delete [/yes]]
+at [\\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] <command>
+at \\marketing ; To display a list of commands scheduled on the Marketing server
+at \\corp 3 ; To learn more about a command with the identification number 3 on the Corp server
+at \\corp 08:00 cmd /c "net share reports=d:\marketing\reports >> \\maintenance\reports\corp.txt" ; To schedule a net share command to run on the Corp server at 8:00 A.M. and redirect the listing to the Maintenance server, in the Reports shared directory, and the Corp.txt file
+at \\marketing 00:00 /every:5,10,15,20,25,30 archive ; To back up the hard drive of the Marketing server to a tape drive at midnight every five days, create a batch program called Archive.cmd, which contains the backup commands, and then schedule the batch program to run
+at /delete ; To cancel all commands scheduled on the current server, clear the at schedule information
+cmd /c dir > c:\test.out ; To run a command that is not an executable (that is, .exe) file, precede the command with cmd /c to load Cmd.exe
