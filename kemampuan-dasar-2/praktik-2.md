@@ -15,120 +15,116 @@
 2. Menambahkan member
    - Pilih Invite member
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture04.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture4.png)
      
    - Masukkan username, nama lengkap atau email member yang akan diinvite. Kemudian invite.
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture05.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture5.png)
      
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture06.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture6.png)
      
    - Atur role untuk member tersebut
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture07.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture7.png)
      
    - Member yang diinvite akan mendapatkan email invite untuk bergabung
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture09.jpeg)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture8.png)
      
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture10.jpeg)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture9.png)
      
      Jika member menekan button invite, maka secara otomatis akan tergabung.
      
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture08.jpeg)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture10.png)
      
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture11.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture11.png)
      
 3. Membuat repo baru
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture12.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture12.png)
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture13.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture13.png)
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture14.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture14.png)
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture15.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture15.png)
    
 4. Membuat Projek Baru
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture16.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture16.png)
      
 5. Memanage member
      
    - Pilih member yang ingin di atur managenya, kemudian pilih manage
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture17.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture17.png)
      
    - Pilih Manage access
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture18.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture18.png)
      
    - Pilihlah Public repository atu Membership privilege. Kemudian pilih edit
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture19.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture19.png)
      
 6. Mengubah role member
      
    - Pilih member yang ingin di atur rolenya, kemudian pilih change role
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture20.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture20.png)
      
    - Pilih role
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture21.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture21.png)
      
 7. Mengclone repo, membuat file baru, dan mengepushnya kedalam Github
      
    - Pilih letak tempat untuk menclone repo, kemudia klik kanan dan pilih Git Bash Here
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture22.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture22.png)
      
    - Copy URL HTTPS repo
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture23.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture23.png)
      
    - Ketikkan git clone kemudian url HTTPS repo. Kemudian masuk kedalam repo yang telah selesai di clone
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar01.PNG)
-     
-   - Membuat file baru
-   
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Capture01.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture24.png)
      
    - Masukkan isi kedalam file yang telah dibuat
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar02.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture25.png)
      
    - Masukkan nama akun untuk organisasi dan kontak email
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar03.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture26.png)
      
    - Cek status file tersebut
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar04.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture27.png)
      
    - Kemudian git add file tersebut, kemudian cek statusnya kembali
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar05.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture28.png)
      
    - Git commit file tersebut dan push
    
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar06.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture29.png)
      
      Hasil Push :
      
-     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar07.PNG)
+     ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture30.png)
      
    #### Riwayat Commit ####
    Bisa dilihat pada Manage Topics
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar08.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture31.png)
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar09.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture32.png)
    
    #### Membuat branch baru ####
-   Dapat menggunakan perintah git checkout -b nunung
+   Dapat menggunakan perintah git checkout -b fatan
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar10.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture33.png)
    
-   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar11.PNG)
+   ![gambar 2](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture34.png)
