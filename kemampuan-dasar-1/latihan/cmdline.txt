@@ -27,3 +27,101 @@ at \\corp 08:00 cmd /c "net share reports=d:\marketing\reports >> \\maintenance\
 at \\marketing 00:00 /every:5,10,15,20,25,30 archive ; To back up the hard drive of the Marketing server to a tape drive at midnight every five days, create a batch program called Archive.cmd, which contains the backup commands, and then schedule the batch program to run
 at /delete ; To cancel all commands scheduled on the current server, clear the at schedule information
 cmd /c dir > c:\test.out ; To run a command that is not an executable (that is, .exe) file, precede the command with cmd /c to load Cmd.exe
+
+Syntax
+e). atmadm [/c][/a][/s] 
+atmadm /c ; To display call information for all current connections to the atM network adapter installed on this computer 
+atmadm /a ; To display the registered atM network service access point (NSAP) address for each adapter installed in this computer
+atmadm /s ; To display statistics for monitoring the status of active atM connections
+
+Syntax
+f). attrib [{+|-}r] [{+|-}a] [{+|-}s] [{+|-}h] [{+|-}i] [<Drive>:][<Path>][<FileName>] [/s [/d] [/l]]
+attrib news86 ; To display the attributes of a file named News86 that is located in the current directory
+attrib +r report.txt ; To assign the Read-only attribute to the file named Report.txt 
+attrib -r b:\public\*.* /s ; To remove the Read-only attribute from files in the Public directory and its subdirectories on a disk in drive B
+attrib +a a:*.* & attrib -a a:*.bak ; To set the Archive attribute for all files on drive A, and then clear the Archive attribute for files with the .bak extension
+
+Syntax
+g). Auditpol command [<sub-command><options>]
+/get ; Displays the current audit policy.
+See Auditpol get for syntax and options.
+/set ; Sets the audit policy.
+See Auditpol set for syntax and options.
+/list ; Displays selectable policy elements.
+See Auditpol list for syntax and options.
+/backup ; Saves the audit policy to a file.
+See Auditpol backup for syntax and options.
+/restore ; Restores the audit policy from a file that was previously created by using auditpol /backup.
+See Auditpol restore for syntax and options.
+/clear ; Clears the audit policy.
+See Auditpol clear for syntax and options.
+/remove ; Removes all per-user audit policy settings and disables all system audit policy settings.
+See Auditpol remove for syntax and options.
+/resourceSACL ; Configures global resource system access control lists (SACLs).
+Note: Applies only to Windows 7 and Windows Server 2008 R2.
+See Auditpol resourceSACL.
+/? ; Displays help at the command prompt.
+
+Syntax
+h). chkdsk [<Volume>[[<Path>]<FileName>]] [/f] [/v] [/r] [/x] [/i] [/c] [/l[:<Size>]] [/b] 
+chkdsk d: /f ; If you want to check the disk in drive D and have Windows fix errors 
+chkdsk *.* ; If it encounters errors, chkdsk pauses and displays messages. Chkdsk finishes by displaying a report that lists the status of the disk. You cannot open any files on the specified drive until chkdsk finishes.
+To check all files on a FAT disk in the current directory for noncontiguous blocks 
+
+Syntax
+i). chkntfs <Volume> [...]
+chkntfs [/d]
+chkntfs [/t[:<Time>]]
+chkntfs [/x <Volume> [...]]
+chkntfs [/c <Volume> [...]]
+chkntfs c: ; To display the type of file system for drive C 
+The type of the file system is NTFS. ; The following output indicates an NTFS file system 
+chkntfs /t ; To display the Autochk.exe initiation countdown time 
+The AUTOCHK initiation countdown time is set to 10 second(s). ; For example, if the countdown time is set to 10 seconds, the following output displays
+chkntfs /t:30 ; To change the Autochk.exe initiation countdown time to 30 seconds 
+
+j). autofmt ; Formats a drive or partition when called from the Windows Recovery Console. 
+
+k). bcdboot ; Enables you to quickly set up a system partition, or to repair the boot environment located on the system partition
+Syntax 
+bcdboot <source> [/l] [/s] 
+
+l). bcdedit ; Boot Configuration Data (BCD) files provide a store that is used to describe boot applications and boot application settings. The objects and elements in the store effectively replace Boot.ini.
+Syntax  
+BCDEdit /Command [<Argument1>] [<Argument2>] ...
+
+m). bdehdcfg 
+Syntax 
+bdehdcfg [–driveinfo <DriveLetter>] [-target {default|unallocated|<DriveLetter> shrink|<DriveLetter> merge}] [–newdriveletter] [–size <SizeinMB>] [-quiet]
+
+n). bitsadmin 
+Syntax 
+Created job {C775D194-090F-431F-B5FB-8334D00D1CB6}. ; BITSAdmin returns a GUID that uniquely identifies the job. Use the GUID or job name in subsequent calls
+
+o). bitsadmin addfile 
+Syntax 
+bitsadmin /AddFile <Job> <RemoteURL> <LocalName> 
+C:\>bitsadmin /addfile myDownloadJob http://downloadsrv/10mb.zip c:\10mb.zip ; Add a file to the job. Repeat this call for each file you want to add. If multiple jobs use myDownloadJob as their name, you must replace myDownloadJob with the job's GUID to uniquely identify the job
+
+p). bitsadmin addfileset ; Adds one or more files to the specified job. 
+Syntax 
+bitsadmin /addfileset <Job> <TextFile>
+
+q). bitsadmin addfilewithranges ; Adds a file to the specified job. BITS downloads the specified ranges from the remote file. This switch is valid only for download jobs. 
+Syntax
+bitsadmin /AddFileWithRanges <Job> <RemoteURL> <LocalName> <RangeList>
+
+r). bitsadmin cancel ; Removes the job from the transfer queue and deletes all temporary files associated with the job 
+Syntax 
+bitsadmin /cancel <Job> 
+
+s). bitsadmin complete ; Completes the job. The downloaded files are not available to you until you use this switch. Use this switch after the job moves to the transferred state. Otherwise, only those files that have been successfully transferred are available.
+Syntax 
+bitsadmin /complete <Job> 
+
+t). bitsadmin create 
+Syntax 
+bitsadmin /create [type] DisplayName 
+Examples
+C:\>bitsadmin /create myDownloadJob ; Creates a download job named myDownloadJob
+
