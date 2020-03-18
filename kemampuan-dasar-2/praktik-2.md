@@ -3,7 +3,6 @@
 a). Membuat repo
 
 Organisasi
-
-    ~ Pilih New Organization
-    ![picture 1](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture1.png)
+ ~ Pilih New Organization
+![praktik 1](https://github.com/FatkhanZakia/rhymes/blob/master/pictures/picture1.png)
 
