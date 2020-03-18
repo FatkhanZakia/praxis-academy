@@ -20,6 +20,9 @@ d). Untuk membuat file baru bernama README.md lakukanlah hal berikut ini:
 e). Kemudian tambahkan beberapa penjelasan tentang proyek ke file README.
 ![praktik 5](https://github.com/FatkhanZakia/rhymes/blob/master/praktik5.png)
 
+f). Kemudian tinjau perubahan yang tidak dikomit. Lalu lakukan itu.
+![praktik 6](https://github.com/FatkhanZakia/rhymes/blob/master/praktik6.png)
+
 
 
 
