@@ -1,0 +1,24 @@
+{
+  "Nama_Team":"Bootcamp",
+  "Anggota":[
+    {
+      "id":"01",
+      "nama":"Fatkhan",
+      "Alamat":"Pemalang"
+    }
+  ,
+    {
+      "id":"02",
+      "nama":"Gilang",
+      "Alamat":"Tangerang"
+    }
+  ,
+    {
+      "id":"03",
+      "nama":"Dedek",
+      "Alamat":"Jakarta"
+    }
+  ],
+  "Day":"04",
+  "Lokasi":"Jakarta"
+}

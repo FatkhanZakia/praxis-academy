@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+<Team>
+    <Nama_Team>Bootcamp</Nama_Team>
+    <Anggota>
+        <id>01</id>
+        <nama>Fatkhan</nama>
+        <Alamat>Pemalang</Alamat>
+    </Anggota>
+    <Anggota>
+        <id>02</id>
+        <nama>Gilang</nama>
+        <Alamat>Tangerang</Alamat>
+    </Anggota>
+    <Anggota>
+        <id>03</id>
+        <nama>Dedek</nama>
+        <Alamat>Jakarta</Alamat>
+    </Anggota>
+    <Day>4</Day>
+    <Lokasi>Jakarta</Lokasi>
+</Team>
