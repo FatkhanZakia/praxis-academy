@@ -5,7 +5,7 @@ time | author
 # Install MongoDB on Linux
 
 
->Import the public key used by the package management system
+## 1. Import the public key used by the package management system
 ```
 $ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
 ``` 
@@ -21,7 +21,7 @@ $ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key ad
 ``` 
 
 
->`Create a /etc/apt/sources.list.d/mongodb-org-4.2.list file for MongoDB`
+## 2. `Create a /etc/apt/sources.list.d/mongodb-org-4.2.list file for MongoDB`
    
 **a. Debian 10 "`Buster`"**
 ```
@@ -33,11 +33,11 @@ $ echo "deb http://repo.mongodb.org/apt/debian stretch/mongo*db-org/4.2 main" | 
 ``` 
 
 
->Import the public key used by the package management system
+## 3. Reload local package database
 ```
 $ sudo apt-get update
 ``` 
->Install the MongoDB packages
+## 4. Install the MongoDB packages
    
 **a. Install the latest version of MongoDB**
 ```
