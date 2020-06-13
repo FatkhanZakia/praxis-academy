@@ -5,22 +5,23 @@ time | author
 # Install MongoDB on Linux
 
 
-1. Import the public key used by the package management system
+>Import the public key used by the package management system
 ```
 $ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
 ``` 
 The operation should respond with an `OK`. However, if you receive an error indicating that `gnupg` is not installed, you can : 
 
-a. Install `gnupg` and its required libraries using the following command :
+**a. Install `gnupg` and its required libraries using the following command :**
 ```
 $ sudo apt-get install gnupg
 ``` 
-b. Once installed, retry importing the key :
+**b. Once installed, retry importing the key :**
 ```
 $ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
 ``` 
 
-2. `Create a /etc/apt/sources.list.d/mongodb-org-4.2.list file for MongoDB`
+
+>`Create a /etc/apt/sources.list.d/mongodb-org-4.2.list file for MongoDB`
    
 **a. Debian 10 "`Buster`"**
 ```
@@ -31,12 +32,12 @@ $ echo "deb http://repo.mongodb.org/apt/debian buster/mongodb-org/4.2 main" | su
 $ echo "deb http://repo.mongodb.org/apt/debian stretch/mongo*db-org/4.2 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 ``` 
 
-3. Import the public key used by the package management system
+
+>Import the public key used by the package management system
 ```
 $ sudo apt-get update
 ``` 
-
-4. Install the MongoDB packages
+>Install the MongoDB packages
    
 **a. Install the latest version of MongoDB**
 ```
@@ -46,6 +47,7 @@ $ sudo apt-get install -y mongodb-org
 ```
 $ sudo apt-get install -y mongodb-org=4.2.7 mongodb-org-server=4.2.7 mongodb-org-shell=4.2.7 mongodb-org-mongos=4.2.7 mongodb-org-tools=4.2.7
 ``` 
+
 
 If you only install `mongodb-org=4.2.7` and do not include the component packages, the latest version of each MongoDB package will be installed regardless of what version you specified.
 
@@ -59,6 +61,5 @@ echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 ``` 
 
 > **Noted :**
-> 
-> I hope you learn something and happy coding.
+> I hope you learn something and happy coding
 
